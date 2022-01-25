@@ -2,11 +2,15 @@
 name = "annie"
 version = "0.1.0"
 description = ""
-authors = ["Harry Lees <harry.lees@gmail.com>"]
+authors = [
+    "Harry Lees <harry.lees@gmail.com>",
+    "Siddhant Jogai <siddhantjogai@protonmail.com>"
+]
 license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pydantic = "^1.9.0"
 
 [tool.poetry.dev-dependencies]
 
